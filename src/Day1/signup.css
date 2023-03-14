@@ -1,0 +1,84 @@
+.sign-up-page {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #00afb9;
+}
+
+.form-box {
+  height: 350px;
+  width: 800px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #00afb9;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.image-side {
+  height: 350px;
+  width: 425px;
+  border: none;
+  background-image: url("../Images/signup.png");
+  background-position: center;
+}
+
+.form-side {
+  height: 350px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: none;
+}
+
+.form {
+  height: 300px;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 200px;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  padding: 10px 5px;
+  border-bottom-style: groove;
+}
+
+input:focus {
+  background-color: beige;
+  border-style: none;
+}
+
+button {
+  margin-top: 10px;
+  height: 30px;
+  width: 210px;
+  background-color: #3a86ff;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3a85ff7b;
+}
